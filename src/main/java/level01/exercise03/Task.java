@@ -1,6 +1,8 @@
-package level01.exercise02;
+package level01.exercise03;
+
 
 public class Task {
+
     Level level;
 
     public Task(Level level){
@@ -12,5 +14,9 @@ public class Task {
     }
     public void showLevel(){
         System.out.format("Task level is %s\n", this.level);
+    }
+
+    public void showLevelColor(){
+        System.out.format("Level color is %s\n", this.level.getColor());
     }
 }
