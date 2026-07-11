@@ -8,6 +8,10 @@ public class Task {
         this.level = level;
     }
 
+    public Level getLevel(){
+        return this.level;
+    }
+
     public void showLevel(){
         System.out.format("Task level is %s", this.level);
     }
