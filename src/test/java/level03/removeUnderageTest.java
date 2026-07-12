@@ -1,4 +1,4 @@
-package Level03;
+package level03;
 
 import level03.exercise04.PeopleManager;
 import level03.exercise04.Person;

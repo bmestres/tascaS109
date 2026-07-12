@@ -94,12 +94,78 @@ with analog operations.
     ├── main
     │   ├── java
     │   │   ├── level01
+    │   │   │   ├── exercise01
+    │   │   │   │   ├── Calendar.java
+    │   │   │   │   └── Day.java
+    │   │   │   ├── exercise02
+    │   │   │   │   ├── Level.java
+    │   │   │   │   ├── Main.java
+    │   │   │   │   └── Task.java
+    │   │   │   ├── exercise03
+    │   │   │   │   ├── Level.java
+    │   │   │   │   ├── Main.java
+    │   │   │   │   └── Task.java
+    │   │   │   └── exercise04
+    │   │   │       ├── Level.java
+    │   │   │       ├── Main.java
+    │   │   │       ├── StringToEnum.java
+    │   │   │       └── Task.java
     │   │   ├── level02
+    │   │   │   ├── exercise01
+    │   │   │   │   ├── DateAndTime.java
+    │   │   │   │   └── Main.java
+    │   │   │   ├── exercise02
+    │   │   │   │   ├── DateAndTime.java
+    │   │   │   │   └── Main.java
+    │   │   │   ├── exercise03
+    │   │   │   │   ├── DateAndTime.java
+    │   │   │   │   ├── Main.java
+    │   │   │   │   └── Time.java
+    │   │   │   ├── exercise04
+    │   │   │   │   ├── FormatDateTime.java
+    │   │   │   │   └── Main.java
+    │   │   │   ├── exercise05
+    │   │   │   │   ├── DateAndTime.java
+    │   │   │   │   └── Main.java
+    │   │   │   └── exercise06
+    │   │   │       ├── Agenda.java
+    │   │   │       └── Main.java
     │   │   └── level03
+    │   │       ├── exercise01
+    │   │       │   ├── Main.java
+    │   │       │   └── Person.java
+    │   │       ├── exercise02
+    │   │       │   ├── Main.java
+    │   │       │   └── Person.java
+    │   │       ├── exercise03
+    │   │       │   ├── Main.java
+    │   │       │   └── Person.java
+    │   │       └── exercise04
+    │   │           ├── Main.java
+    │   │           ├── PeopleManager.java
+    │   │           └── Person.java
     │   └── resources
     └── test
         └── java
-            ├── Level03
             ├── level01
-            └── level02
+            │   ├── exercise01
+            │   │   └── TypeOfDayTest.java
+            │   ├── exercise02
+            │   │   └── TaskLevelTest.java
+            │   ├── exercise03
+            │   │   └── LevelColorTest.java
+            │   └── exercise04
+            │       └── convertStringToEnumTest.java
+            ├── level02
+            │   ├── exercise02
+            │   │   └── DateDifferenceTest.java
+            │   ├── exercise03
+            │   │   └── ModifyDateTimeTest.java
+            │   ├── exercise04
+            │   │   └── FormatDateTimeTest.java
+            │   └── exercise05
+            │       └── PassedDateTest.java
+            └── level03
+                └── removeUnderageTest.java
+
 ```
