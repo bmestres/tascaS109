@@ -9,13 +9,5 @@ public record Person(String name, int age) {
             throw new IllegalArgumentException("Age cannot be less than 18");
         }
     }
-
-    public String getName(){
-        return this.name;
-    }
-
-    public int getAge(){
-        return this.age;
-    }
 }
 
