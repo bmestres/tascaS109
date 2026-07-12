@@ -1,14 +1,8 @@
-package level03;
+package level03.exercise04;
 
 public record Person(String name, int age) {
 
     private static final int ADULT_AGE = 18;
-
-    public Person {
-        if (age < ADULT_AGE) {
-            throw new IllegalArgumentException("Age cannot be less than 18");
-        }
-    }
 
     public String getName(){
         return this.name;
@@ -20,6 +14,11 @@ public record Person(String name, int age) {
 
     public boolean isUnderage(){
         return this.age < ADULT_AGE;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Name: %s, Age: %d", this.name, this.age);
     }
 }
 
