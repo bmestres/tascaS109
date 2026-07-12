@@ -28,8 +28,9 @@ Creation of an enum type called Day containing the days of the week. Adds a meth
 Creation of an enum named level with low, medium and high values. Creates a Task class with a Level property and shows how the behavior changes based on the level.
 Adds method getColor() and checks logic correctness.
 Method to convert a String to enum and handle errors if the value is invalid.
-````bash
+
 **Execution:**
+````bash
 java -cp target/classes level01.exercise01.Main
 java -cp target/classes level01.exercise02.Main
 java -cp target/classes level01.exercise03.Main
