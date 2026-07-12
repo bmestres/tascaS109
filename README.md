@@ -12,13 +12,14 @@ a novelty of Java to declare classes of immutable data with less code.
 * **Maven**: Required to download external dependencies (JUnit and AssertJ for testing)
 
 **Installation and Compilation**:
+````bash
 1. Clone repository:<br>
    https://github.com/bmestres/tascaS109.git
 2. Navigate to the project root directory:<br>
    `cd tascaS109`
 3. Resolve dependencies and compile the project using Maven:<br>
    `mvn clean compile`
-
+```
 ## Level 1:
 Work on the creation of enums, the use in conditions and classes, 
 and how to extract useful information from them.
