@@ -2,8 +2,11 @@ package level02.exercise06;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+
 import java.util.List;
-import java.util.Locale;
+
+import java.util.stream.Collectors;
+
 
 public class Agenda {
     List<LocalDateTime> appointments = List.of(
@@ -17,12 +20,16 @@ public class Agenda {
     public Agenda(){
     }
 
-    public void showNextAppointments(){
+    public List<LocalDateTime> getNextAppointments(){
+        LocalDateTime today = LocalDateTime.now();
+        return this.appointments.stream().filter(element -> {return element.isAfter(today);}).collect(Collectors.toList());
+    }
 
+    public void showNextAppointments(){
+        List<LocalDateTime> nextAppointments = getNextAppointments();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy 'at' hh:mm a");
         LocalDateTime today = LocalDateTime.now();
 
-        this.appointments.stream().filter(element -> {return element.isAfter(today);})
-                .forEach(element -> {System.out.format("%s\n", formatter.format(element));});
+        nextAppointments.forEach(element -> {System.out.format("%s\n", formatter.format(element));});
     }
 }
