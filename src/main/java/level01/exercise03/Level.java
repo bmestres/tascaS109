@@ -14,5 +14,4 @@ public enum Level {
     public String getColor(){
         return this.color;
     }
-
 }
